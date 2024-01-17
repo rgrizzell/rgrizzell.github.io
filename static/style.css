@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Elements */
+body {
+  color: #aaaaaa;
+  font-family: Verdana;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+/* Top */
+.top {
+  background-color: #e5e5e5;
+  overflow: auto;
+  padding: 15px;
+  display: flex;
+}
+
+.nav {
+    display: flex;
+}
+.nav a {
+  color: #aaaaaa;
+  padding: 14px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+.nav a:hover {
+  color: #e5e5e5;
+  background-color: #aaaaaa;
+}
+.nav a.active {
+  color: #aaaaaa;
+  background-color: #e5e5e5;
+}
+
+.contact {
+  width: 20%;
+}
+.contact a {
+  color: #aaaaaa;
+  float: left;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.contact a:hover {
+  color: #e5e5e5;
+  background-color: #aaaaaa;
+}
+.contact a.active {
+  color: #aaaaaa;
+  background-color: #e5e5e5;
+}
+.contact #name {
+  font-size: 25px;
+}
+
+/* Middle */
+.middle {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.blog {
+  padding: 0 20px;
+
+}
+.blog img {
+  width: 100%;
+  height: auto;
+}
+.blog-post {
+  display: block;
+}
+.blog-post:not(:first-child) {
+  border-top: 1px solid;
+}
+.blog-post:not(:last-child) {
+  margin-bottom: 35px;
+}
+.blog-post .continue {
+  color: #aaaaaa;
+  font-weight: bold;
+}
+
+/* Bottom */
+.footer {
+  color: #aaaaaa;
+  background-color: #e5e5e5;
+  clear: both;
+  text-align: center;
+  padding: 10px;
+  margin-top: 7px;
+}
+.footer a {
+  color: #aaaaaa;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.footer a:hover {
+  color: #e5e5e5;
+  background-color: #aaaaaa;
+}
+
+/* Viewport Specifics */
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
