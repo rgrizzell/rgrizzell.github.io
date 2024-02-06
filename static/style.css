@@ -70,11 +70,12 @@ body {
 
 .blog {
   padding: 0 20px;
-
 }
 .blog img {
-  width: 100%;
+  width: 80%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 .blog-post {
   display: block;
